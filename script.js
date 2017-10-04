@@ -88,12 +88,8 @@ recognition.onresult = function(e) {
 
 recognition.onend = function() {
   stopDictation();
-  if (result !== "") {
-    checkResult();
-  }
-}
+  if (result === "") {return;}
 
-function checkResult() {
   if (result.toLowerCase() === original.toLowerCase()) {
     document.getElementById("correct").style.display = "block";
     imageNumber++;

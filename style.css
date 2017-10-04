@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+fieldset, p {
+  margin: 15px;
+}
+
 button {
   font-size: 15px;
   cursor: pointer;
@@ -23,6 +27,10 @@ button {
   border: 1px solid #111111;
   background-color: #FFDC00; /* Yellow */
   color: #111111;
+}
+
+#button {
+  text-align: center;
 }
 
 header {
@@ -40,7 +48,6 @@ header>div, #welcome, #learn {
 
 fieldset {
   display: block;
-  margin: 15px;
   position: relative;
   background-color: #ffffff;
   border: 1px solid #111111;
