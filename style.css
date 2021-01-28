@@ -89,7 +89,6 @@ legend {
 #micOn, #micOff , #correct, #incorrect {
   display: none;
   position: absolute;
-  font-size: 50px;
   top: 8px;
   right: 0px;
 }
